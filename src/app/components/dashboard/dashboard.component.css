@@ -1,0 +1,23 @@
+.dashboard {
+    padding: 20px 20%;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-dark {
+    font-size: 15px;
+    width: 100px;
+}
+
+.divide {
+    margin: 10px 0;
+}

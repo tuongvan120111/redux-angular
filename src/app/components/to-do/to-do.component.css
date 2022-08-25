@@ -1,0 +1,57 @@
+.todo {
+  padding: 20px 20%;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.add-task {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+input {
+  padding: 5px;
+  border-radius: 3px;
+  margin-right: 8px;
+  width: calc(100% - 88px);
+}
+
+.btn-primary {
+  padding: 5px;
+  width: 80px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.done {
+  text-decoration-line: line-through;
+}
+
+.task-item {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.item {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.item:hover {
+  cursor: pointer;
+}
+
+.task-name {
+  margin: 0 8px;
+  word-break: break-word;
+}
+
+.btn-secondary {
+  flex-shrink: 1;
+  max-height: 38px;
+  align-self: center;
+}

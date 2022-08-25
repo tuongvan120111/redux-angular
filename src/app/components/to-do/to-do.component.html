@@ -1,0 +1,24 @@
+<div class="todo">
+  <h1>
+    Todo List
+  </h1>
+
+  <div class="add-task">
+    <input class="form-control" type="text" [(ngModel)]="taskAdd">
+
+    <button class="btn btn-primary" (click)="addTask()">Add</button>
+  </div>
+
+  <div class="task-list">
+    <div class="task-item" *ngFor="let item of taskList">
+      <div class="item">
+        <i class="fa fa-bars"></i>
+        <span class="task-name" [ngClass]="{done: item.isDeleted}">{{ item.taskName }}</span>
+      </div>
+
+      <button class="btn btn-secondary">Remove</button>
+
+    </div>
+
+  </div>
+</div>
